@@ -4,6 +4,7 @@
     <router-link to="/news">新闻</router-link>
     <router-link to="/games">游戏</router-link>
     <router-link to="/filter">过滤器</router-link>
+    <router-link to="/handleBetaData">元数据处理</router-link>
     <router-view/>
   </div>
 </template>

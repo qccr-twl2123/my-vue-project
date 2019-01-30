@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import News from '@/components/News'
 import Games from '@/components/Games'
 import Filter from '@/components/Filter'
+import HandleBetaData from '@/components/HandleBetaData'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/filter',
       name: 'filter',
       component: Filter
+    },
+    {
+      path: '/handleBetaData',
+      name: 'HandleBetaData',
+      component: HandleBetaData
     }
   ]
 })
