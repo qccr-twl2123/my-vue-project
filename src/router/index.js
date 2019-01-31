@@ -5,6 +5,8 @@ import News from '@/components/News'
 import Games from '@/components/Games'
 import Filter from '@/components/Filter'
 import HandleBetaData from '@/components/HandleBetaData'
+import Condition from '@/components/Condition'
+import ParentComponent from '@/components/ParentComponent'
 
 Vue.use(Router)
 
@@ -34,6 +36,16 @@ export default new Router({
       path: '/handleBetaData',
       name: 'HandleBetaData',
       component: HandleBetaData
+    },
+    {
+      path: '/condition',
+      name: 'Condition',
+      component: Condition
+    },
+    {
+      path: '/parentComponent',
+      name: 'ParentComponent',
+      component: ParentComponent
     }
   ]
 })

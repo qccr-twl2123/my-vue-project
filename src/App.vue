@@ -5,6 +5,8 @@
     <router-link to="/games">游戏</router-link>
     <router-link to="/filter">过滤器</router-link>
     <router-link to="/handleBetaData">元数据处理</router-link>
+    <router-link to="/condition">条件渲染</router-link>
+    <router-link to="/parentComponent">组件传参</router-link>
     <router-view/>
   </div>
 </template>
